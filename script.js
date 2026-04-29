@@ -1,3 +1,3 @@
-function orderNow() {
-  alert("Your order request has been received ☕");
+function scrollToMenu(){
+  document.getElementById('menu').scrollIntoView({behavior:'smooth'});
 }
